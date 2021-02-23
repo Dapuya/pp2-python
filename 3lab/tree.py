@@ -1,0 +1,17 @@
+n = int(input())
+d = {}
+for i in range(n):
+    
+
+
+
+
+# 9
+# Alexei Peter_I                             
+# Anna Peter_I
+# Elizabeth Peter_I
+# Peter_II Alexei
+# Peter_III Anna
+# Paul_I Peter_III
+# Alexander_I Paul_I
+# Nicholaus_I Paul_I
