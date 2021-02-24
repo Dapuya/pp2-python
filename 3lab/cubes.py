@@ -28,13 +28,15 @@ for i in range(n2):
 print(len(common_member(list1, list2)))
 for i in common_member(list1, list2):
     print(i,end=' ')
+print()
 print('\n',len(difference(list1,list2)))
 for i in difference(list1,list2):
     print(i,end=' ')
+print()
 print('\n',len(difference(list2,list1)))
 for i in difference(list2,list1):
     print(i,end=' ')
-
+print()
 
 
 # Ann         Boris
