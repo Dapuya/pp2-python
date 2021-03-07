@@ -16,6 +16,7 @@ if n == 1 :
     a = input()
     if a == 'a':
         
+        
 
 
 # 1. Your current location is disk C directory. (or home directory for Mac OS, Linux)
