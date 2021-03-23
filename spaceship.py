@@ -6,14 +6,14 @@ screen = pygame.display.set_mode((800, 600))
 
 pygame.display.set_caption("First")
 
-icon = pygame.image.load('f.png')
+icon = pygame.image.load('galaxy.png')
 
 pygame.display.set_icon(icon)
 
 playerIcon = pygame.image.load('rocket.png')
 pX = 370
 pY = 480
-
+pX_change = 0
 def player(x,y):
     screen.blit(playerIcon, (x, y))
 
@@ -27,15 +27,17 @@ while run:
             run = False
 
         if event.type == pygame.KEYDOWN:
-            print("keystrock is pressed")
             if event.key == pygame.K_LEFT:
-                print("left")
+                pX_change = -0.3
             if event.key == pygame.K_RIGHT:
-                print("right")
-
+                pX_change = 0.3
         if event.type == pygame.KEYUP:
             if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
-                print("keystroke is released")
-
+                pX_change = 0
+    pX += pX_change
+    if pX <= 0:
+        pX = 0
+    elif pX >= 736:
+        pX = 736
     player(pX, pY)
     pygame.display.update()
