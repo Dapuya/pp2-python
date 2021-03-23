@@ -21,9 +21,21 @@ def player(x,y):
 run = True
 while run:
     screen.fill((0, 0, 0))
-    pX += 0.1
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
+
+        if event.type == pygame.KEYDOWN:
+            print("keystrock is pressed")
+            if event.key == pygame.K_LEFT:
+                print("left")
+            if event.key == pygame.K_RIGHT:
+                print("right")
+
+        if event.type == pygame.KEYUP:
+            if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
+                print("keystroke is released")
+
     player(pX, pY)
     pygame.display.update()
