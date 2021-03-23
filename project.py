@@ -14,15 +14,16 @@ playerIcon = pygame.image.load('rocket.png')
 pX = 370
 pY = 480
 
-def player():
-    screen.blit(playerIcon, (pX, pY))
+def player(x,y):
+    screen.blit(playerIcon, (x, y))
 
 
 run = True
 while run:
-    screen.fill((200, 200, 200))
+    screen.fill((0, 0, 0))
+    pX += 0.1
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
-    player()
+    player(pX, pY)
     pygame.display.update()
