@@ -14,6 +14,12 @@ playerIcon = pygame.image.load('rocket.png')
 pX = 370
 pY = 480
 pX_change = 0
+
+enemyIcon = pygame.image.load('rocket.png')
+eX = 370
+eY = 480
+eX_change = 0
+
 def player(x,y):
     screen.blit(playerIcon, (x, y))
 
