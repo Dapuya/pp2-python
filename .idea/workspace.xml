@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="697f0102-097a-4863-aaea-cbd1660b8a66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/spaceship.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pp2-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pp2-python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3lab/even.py" beforeDir="false" afterPath="$PROJECT_DIR$/3lab/even.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3lab/frequency.py" beforeDir="false" afterPath="$PROJECT_DIR$/3lab/frequency.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3lab/tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/3lab/tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5lab/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/4lab/10.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +99,7 @@
       <workItem from="1616581298123" duration="2688000" />
       <workItem from="1616673955464" duration="3206000" />
       <workItem from="1616783608516" duration="519000" />
+      <workItem from="1621497647930" duration="1728000" />
     </task>
     <servers />
   </component>
